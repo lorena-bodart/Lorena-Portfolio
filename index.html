@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorena Bodart DevFrontEnd</title>
+    <script src="https://kit.fontawesome.com/067a2b34ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+<body>
+
+    <div class="container">
+      <section class="grid grid-area-1">
+        <div class="item item-1">
+          <h1><strong>Lorena</strong> <span style="color: blueviolet;">Bodart</span> </h1>
+          <h2>Desenvolvedora Front End <span style="color: blueviolet;"> em progresso.</span></h2>
+        </div>
+        <div class="item hover-info item-2" data-bs-toggle="modal" data-bs-target="#sobreMim">
+          <img class="icones" src="img/wink2.svg" alt="emoji feliz piscando"> 
+          <h4>Sobre Mim</h4>
+        </div>
+        <div class="item item-3"></div>
+        <div class="item hover-info item-4" data-bs-toggle="modal" data-bs-target="#skills">
+          <img class="icones" src="img/rocket.svg" alt="imagem de foguete">
+          <h4>Skills</h4>
+        </div>
+        <div class="item item-5"></div>
+        <div class="item item-6"></div>
+        <div class="item hover-info item-7"data-bs-toggle="modal" data-bs-target="#curiosidades">
+        <img class="icones" src="img/command.svg" alt="icone command">
+        <h4>Curiosidades </h4>
+        </div>
+        <div class="item item-8"></div>
+        <div class="item item-9"></div>
+        <div class="item item-10">
+          <div class="minhas-redes">
+            <a href="https://www.linkedin.com/in/lorena-bodart/" target="_blank"> <i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/lorena-bodart" target="_blank"><i class="fab fa-github-square"></i></a>
+          </div> 
+        </div>
+      </section>
+    </div>
+
+    <div class="modal fade" id="sobreMim" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sobre Mim</h5>
+          
+          </div>
+          <div class="modal-body">
+            <p>
+            Meu nome é Lorena. Sou formanda em Administração desde 2012 mas fiz uma pausa na carreira
+            durante 5 anos para cuidar das minhas filhas, a Laura e a Luiza. <br>
+              <br>
+            Em 2020 decidi me aventurar no universo Front End e descobri uma nova paixão. Agora meu propósito é 
+            fazer outras mulheres se apaixonarem pela área também, além, é claro, de levar soluções através do desenvolvimento para lugares ainda pouco explorados. 
+            </p>           
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="skills" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Skilss</h5>
+            
+          </div>
+          <div class="modal-body">
+            <img class="skilss" src="img/html5.svg" alt="símbolo do HTML" title="HTML5">
+            <img class="skilss" src="img/css3.svg" alt="símbolo do CSS"title="CSS3">          
+            <img class="skilss" src="img/javascript.svg" alt="símbolo do javascript" title="Javascript">
+            <img class="skilss" src="img/git.svg" alt="símbolo do Git" title="Git">
+            <img class="skilss" src="img/github.svg" alt="símbolo do github" title="GitHub">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="modal fade" id="curiosidades" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Curiosidades</h5>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Sou cantora nas horas vagas;</li>
+              <li>Nasci em 09/01/1991. Apenas números 01 e 09;</li>
+              <li>Gosto de tudo que envolva café;</li>
+              <li>Não gosto de ouvir podcast;</li>
+              <li>Das redes sociais, só uso o Instagram;</li>
+
+
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
